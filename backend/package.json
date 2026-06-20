@@ -1,0 +1,19 @@
+{
+  "name": "ai-studio-backend",
+  "version": "1.0.0",
+  "description": "Local backend server that proxies Gemini API requests and stores chat history, so the API key never has to live in the Flutter app.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^9.0.1"
+  }
+}

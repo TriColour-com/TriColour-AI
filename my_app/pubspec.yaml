@@ -1,0 +1,49 @@
+name: ai_assistant_app
+description: Telegram-style AI chat app with local backend server (Gemini key stored securely on server)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP
+  http: ^1.2.2
+
+  # UI / Styling
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.3.0
+  gap: ^3.0.1
+
+  # Markdown / formatting
+  flutter_markdown: ^0.7.4+1
+  markdown: ^7.2.2
+
+  # Code / highlighting
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+  # Math rendering
+  flutter_math_fork: ^0.7.4
+
+  # Storage / system
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  url_launcher: ^6.2.1
+
+  # Animations
+  lottie: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
